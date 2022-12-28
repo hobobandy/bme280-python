@@ -4,7 +4,7 @@ from ctypes import c_short
 from ctypes import c_byte
 from ctypes import c_ubyte
 
-DEVICE = 0x77 # I2C address
+DEVICE = 0x77 # I2C address (must be prefixed with 0x)
 
 bus = SMBus(1) # Rev 2 Pi, Pi 2, Pi 3, Pi 4 uses bus 1
                # Rev 1 Pi uses bus 0
