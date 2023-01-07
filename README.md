@@ -1,4 +1,5 @@
 # bme280-python
+
 Python 3 script to read data from a BME280 sensor.
 
 Tested with the [Waveshare BME280](https://www.waveshare.com/wiki/BME280_Environmental_Sensor) environmental sensor.
@@ -12,4 +13,5 @@ Based on Python 2 code from [Matt Hawkins](https://www.raspberrypi-spy.co.uk/201
 * Install the Python package: [smbus2](https://pypi.org/project/smbus2/)
 
 ## Alternative
+
 Python 3 package **[bme280-python](https://github.com/pimoroni/bme280-python)** provided by [Pimoroni](https://shop.pimoroni.com/).
