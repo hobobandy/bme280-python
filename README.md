@@ -8,6 +8,7 @@ Based on Python 2 code from [Matt Hawkins](https://www.raspberrypi-spy.co.uk/201
 
 ## Requirements
 
+* This script does not work on Windows.
 * Update the I2C address (use `i2cdetect -y 1`, it should be `76` or `77`)
 * Update the bus passed to `SMBus()` based on your Pi version
 * Install the Python package: [smbus2](https://pypi.org/project/smbus2/)
